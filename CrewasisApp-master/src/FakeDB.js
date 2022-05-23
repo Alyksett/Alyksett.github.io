@@ -7,8 +7,7 @@ const data = {
         "Ideas": [
           {
             "Id": 1,
-            "Title": "The global lip care products market value was 1.98 billion in 2020 and (CAGR) of 5.9% from 2021 to 2028. \
-            The COVID-19 pandemic has impaced the sales of lip care products through major offline retail stores.",
+            "Title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "Feedback":
               {"Rating": 4,
               "Comments": "This idea is great, we will be moving farther towards online distribution and marketing.",
@@ -17,7 +16,7 @@ const data = {
           },
           {
             "Id": 2,
-            "Title": "Pinterest, TikTok, and Reddit are the most popular social media.",
+            "Title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "Feedback":
               {"Rating": 4,
               "Comments": "We have ad campaigns on Facebook and Twitter, but it looks like we need to move to these more.",
