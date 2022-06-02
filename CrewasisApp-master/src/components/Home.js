@@ -22,6 +22,9 @@ const useStyles = makeStyles((theme) => ({
   Title: {
     fontSize: "70px",
     textAlign: 'center',
+    [theme.breakpoints.down('md')]: {
+      fontSize: '30px',
+    },
   },
   Button: {
     marginTop: 10,
@@ -46,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
     margin: '0px',
     padding: '10px',
     transition: '0.3s all',
+    background: '#e0b6e1',
     fontSize: "15px",
     //marginLeft: theme.spacing(3),
     "&:hover": {
@@ -61,7 +65,11 @@ const useStyles = makeStyles((theme) => ({
     marginTop: '10px',
     height: '500px',
     width: '100%',
-    textAlign: 'center'
+    textAlign: 'center',
+    [theme.breakpoints.down('md')]: {
+      height: '200px',
+      marginTop: '10px',
+    },
   }
 
   }));
