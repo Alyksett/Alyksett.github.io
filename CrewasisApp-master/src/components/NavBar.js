@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import logo from "../Assets/Brain.png"
 import {
   AppBar,
@@ -11,6 +11,9 @@ import {
 } from "@material-ui/core";
 import {Link} from "react-router-dom";
 import DrawerComp from "./DrawerComp";
+import {withTheme} from "@emotion/react";
+
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -22,40 +25,52 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "20px",
     flexGrow: "1",
     cursor: "pointer",
+    color: 'purple',
+    fontWeight: '600',
     marginLeft: theme.spacing(2)
   },
   link: {
+    display: 'flex',
+    justifyContent: 'center',
+    position: 'relative',
     textDecoration: "none",
-    color: "white",
+    // letterSpacing: '0.5px',
+    textTransform: 'uppercase',
+    color: "purple",
+    fontWeight: 600,
+    padding: '10px',
+    width: '160px',
+    transition: '0.3s all',
     fontSize: "15px",
-    marginLeft: theme.spacing(5),
+    marginLeft: theme.spacing(3),
     "&:hover": {
-      color: "yellow",
-      // borderBottom: "1px solid white",
+      // borderBottom: "4px solid purple",
+      background: '#e0b6e1',
+      transition: 'all 0.25s ease-in',
     },
   },
+  toolbar: {
+    flex: 1,
+    padding: '0px 32px',
+    justifyContent: 'space-between',
+    background: "#ede7f6",
+    [theme.breakpoints.up('md')]: {
+      height: '100px',
+      padding: '0px 100px',
+    },
+  }
 }));
 
 const NavBar = ({user}) => {
   const classes = useStyles();
-  const [open, setOpen] = useState(false);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
   return (
     <div>
       <AppBar position="static">
       <CssBaseline />
-      <Toolbar>
-          <img src = {logo} width="50" height="50"></img>
+      <Toolbar className={classes.toolbar}>
+        <img src = {logo} width="50" height="50" alt="logo"></img>
         <Typography variant="h4" className={classes.logo}>
           AI PLATFORM
         </Typography>

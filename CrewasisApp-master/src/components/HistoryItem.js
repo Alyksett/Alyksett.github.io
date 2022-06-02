@@ -9,7 +9,7 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 import Divider from '@material-ui/core/Divider';
 import DB from '../FakeDB.js'
 import { palette } from '@mui/system';
-import { Router } from 'react-router';
+import {Router} from 'react-router';
 import {
   AppBar,
   Toolbar,
@@ -75,7 +75,7 @@ class SubListItem extends React.Component{
   }
 
   
-  render(){
+  render() {
     
     return (
       <div style = {{width:1400, marginLeft: 50}}>
@@ -109,7 +109,7 @@ class SubListItem extends React.Component{
                   marginLeft: 20
                   }}>
                 Datasheet
-              </Link>
+            </Link>
           </Grid>  
         </Collapse>
     </div>

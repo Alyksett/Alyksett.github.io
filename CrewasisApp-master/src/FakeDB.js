@@ -759,6 +759,71 @@ const data = {
             
           }
         ]
+    },
+    {
+        "Id": 13,
+        "Date": "5/02/2022",
+        "Theme": "Disabilities: Global Definition and Impact",
+        "Ideas": [
+          {
+            "Id": 1,
+            "Title": "Disability is globally defined as any condition of the mind or body that makes it more difficult \
+              for the person with the condition to do certain activities and interact with the world around them . It \
+              is  the  same  in  United  States,  China,  Brazil,  Australia,  Philippines,  UK,  South  Korea,  Taiwan  and \
+              Canada.",
+            "Feedback":
+              {"Rating": 0,
+              "Comments": "",
+              "DataSheet": "www.google.com"
+              }
+          },
+          {
+            "Id": 2,
+            "Title": "Over 1 billion people have a disability in the world. Prevalence of disability among women \
+              compared with men aged 50+ years was 40.1% vs. 23.8%. Lower levels of education and economic \
+              status are associated with disability in women and men. Worldwide, the most common disability in \
+              people under the age of 60 is depression, followed by hearing and visual problems",
+            "Feedback":
+              {"Rating": 0,
+              "Comments": "",
+              "DataSheet": "www.google.com"}
+            
+          },
+          {
+            "Id": 3,
+            "Title": "Disability  impacts  30%  American  Indians,  20%  White,    25%  Black,  16%  Hawaiian,  16% \
+              Hispanic and 10% Asians. For people aged above 75 years, more than 40% people experience some \
+              kind of disability worldwide.",
+            "Feedback":
+              {"Rating": 0,
+              "Comments": "",
+              "DataSheet": "www.google.com"}
+            
+          },
+          {
+            "Id": 4,
+            "Title": "People with disabilities face stigma, discrimination, and exclusion from accessing jobs and \
+              services, such as education and health care, and they consistently fare less well than their non-\
+              disabled peers in development gains.",
+            "Feedback":
+              {"Rating": 0,
+              "Comments": "",
+              "DataSheet": "www.google.com"}
+            
+          },
+          {
+            "Id": 5,
+            "Title": "People  with  disability  have  the  same  general  health  care  needs  as  everyone  else  and \
+              therefore  need  to  access  mainstream  health  care  services  in  which  they  experience  attitudinal, \
+              physical, communication and financial barriers. ",
+            "Feedback":
+              {"Rating": 0,
+              "Comments": "",
+              "DataSheet": "www.google.com"
+              }
+            
+          }
+        ]
       },
 
       

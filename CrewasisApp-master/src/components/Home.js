@@ -1,18 +1,15 @@
 import React from 'react'
 import logo from "../Assets/CrewasisLogo.png"
 import {
-  AppBar,
-  Toolbar,
-  CssBaseline,
   Typography,
   makeStyles,
-  useTheme,
-  useMediaQuery,
   Divider,
-  Button
+  Button,
+  Box,
+  Icon
 } from "@material-ui/core";
-import { borderLeft } from '@mui/system';
-import { formHelperTextClasses } from '@mui/material';
+import weeklyInsightsFile from "../Assets/files/disabilities.pdf";
+import svgIcon from '../Assets/svg/home.svg'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -28,20 +25,68 @@ const useStyles = makeStyles((theme) => ({
   },
   Button: {
     marginTop: 10,
-    marginLeft: 1590
+    marginLeft: 15,
+  },
+  root: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  link: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+    textDecoration: "none",
+    width: '300px',
+    letterSpacing: '0.5px',
+    textTransform: 'uppercase',
+    color: "purple",
+    fontWeight: 600,
+    margin: '0px',
+    padding: '10px',
+    transition: '0.3s all',
+    fontSize: "15px",
+    //marginLeft: theme.spacing(3),
+    "&:hover": {
+      // borderBottom: "4px solid purple",
+      background: '#e0b6e1',
+      transition: 'all 0.25s ease-in',
+    },
+  },
+  imageIcon: {
+    height: '100%'
+  },
+  iconRoot: {
+    marginTop: '10px',
+    height: '500px',
+    width: '100%',
+    textAlign: 'center'
   }
+
   }));
 
 const Home = () => {
   const classes = useStyles();
   return (
-    <div >
-      <Button className = {classes.Button}> Download </Button>
+    <div>
+      {/* <Button className = {classes.Button}> Download </Button>
       <div className = {classes.logo}>
-        <img src = {logo} ></img>
+        <img src = {logo} alt="logo"></img>
       </div>
-      <Divider></Divider>
+      <Divider></Divider> */}
+      <Icon classes={{root: classes.iconRoot}}>
+        <img className={classes.imageIcon} src={svgIcon} alt="home svg" />
+      </Icon>
       <Typography className={classes.Title}>We explore new ideas!</Typography>
+      <Box className={classes.root}>
+        <Button
+          className={classes.link}
+          href={weeklyInsightsFile}
+          download="disabilities.pdf">
+          Download Most Recent Idea
+        </Button>
+      </Box>
     </div>
   )
 }
