@@ -54,7 +54,8 @@ const useStyles = makeStyles((theme) => ({
     //marginLeft: theme.spacing(3),
     "&:hover": {
       // borderBottom: "4px solid purple",
-      background: '#e0b6e1',
+      background: 'purple',
+      color: '#e0b6e1',
       transition: 'all 0.25s ease-in',
     },
   },
