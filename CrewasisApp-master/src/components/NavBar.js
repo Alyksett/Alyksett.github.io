@@ -1,17 +1,18 @@
 import React from "react";
-import logo from "../Assets/Brain.png"
+import logo from "../Assets/CrewasisLogo.png" 
 import {
   AppBar,
   Toolbar,
   CssBaseline,
-  Typography,
+  Box,
+  Button,
   makeStyles,
   useTheme,
   useMediaQuery,
 } from "@material-ui/core";
 import {Link} from "react-router-dom";
 import DrawerComp from "./DrawerComp";
-import {withTheme} from "@emotion/react";
+import weeklyInsightsFile from "../Assets/files/disabilities.pdf";
 
 
 
@@ -58,6 +59,30 @@ const useStyles = makeStyles((theme) => ({
       height: '100px',
       padding: '0px 100px',
     },
+  },
+  downloadLink: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+    width: '300px',
+    letterSpacing: '0.5px',
+    textDecoration: 'none',
+    textTransform: 'uppercase',
+    color: "purple",
+    fontWeight: 600,
+    margin: '0px',
+    padding: '10px',
+    transition: '0.3s all',
+    background: '#e0b6e1',
+    fontSize: "15px",
+    //marginLeft: theme.spacing(3),
+    "&:hover": {
+      // borderBottom: "4px solid purple",
+      background: 'purple',
+      color: '#e0b6e1',
+      transition: 'all 0.25s ease-in',
+    },
   }
 }));
 
@@ -70,10 +95,10 @@ const NavBar = ({user}) => {
       <AppBar position="static">
       <CssBaseline />
       <Toolbar className={classes.toolbar}>
-        <img src = {logo} width="50" height="50" alt="logo"></img>
-        <Typography variant="h4" className={classes.logo}>
-          AI PLATFORM
-        </Typography>
+        <img src = {logo} width="200" height="50" alt="logo"></img>
+        {/* <Typography variant="h4" className={classes.logo}>
+          CREWASIS
+        </Typography> */}
           {isMobile ? (
             <DrawerComp />
           ) : (
@@ -88,11 +113,16 @@ const NavBar = ({user}) => {
                 History
               </Link>
               <Link to="/billings" className={classes.link}>
-                Billings
+                Billing
               </Link>
-              <Link to="/get_started" className={classes.link}>
-                Get Started
-              </Link>
+              <Box to="/get_started" className={classes}>
+                <Button
+                  className={classes.downloadLink}
+                  href={weeklyInsightsFile}
+                  download="disabilities.pdf">
+                  Download Software Here
+                </Button>
+              </Box>
               {/* {user
               ? <em>{user} logged in</em>
               : <Link to="/login" className={classes.link}>Login</Link>

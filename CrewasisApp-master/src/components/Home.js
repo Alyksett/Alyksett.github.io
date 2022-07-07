@@ -1,14 +1,10 @@
 import React from 'react'
-import logo from "../Assets/CrewasisLogo.png"
 import {
   Typography,
   makeStyles,
-  Divider,
-  Button,
-  Box,
+  
   Icon
 } from "@material-ui/core";
-import weeklyInsightsFile from "../Assets/files/disabilities.pdf";
 import svgIcon from '../Assets/svg/home.svg'
 
 
@@ -88,14 +84,6 @@ const Home = () => {
         <img className={classes.imageIcon} src={svgIcon} alt="home svg" />
       </Icon>
       <Typography className={classes.Title}>We explore new ideas!</Typography>
-      <Box className={classes.root}>
-        <Button
-          className={classes.link}
-          href={weeklyInsightsFile}
-          download="disabilities.pdf">
-          Download Most Recent Idea
-        </Button>
-      </Box>
     </div>
   )
 }
