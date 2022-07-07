@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1c984f30.chunk.css",
-    "main.js": "/static/js/main.c58f2231.chunk.js",
-    "main.js.map": "/static/js/main.c58f2231.chunk.js.map",
+    "main.js": "/static/js/main.e0604916.chunk.js",
+    "main.js.map": "/static/js/main.e0604916.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b018ad78.js",
     "runtime-main.js.map": "/static/js/runtime-main.b018ad78.js.map",
     "static/css/2.907a0915.chunk.css": "/static/css/2.907a0915.chunk.css",
-    "static/js/2.1d605664.chunk.js": "/static/js/2.1d605664.chunk.js",
-    "static/js/2.1d605664.chunk.js.map": "/static/js/2.1d605664.chunk.js.map",
+    "static/js/2.94e988b8.chunk.js": "/static/js/2.94e988b8.chunk.js",
+    "static/js/2.94e988b8.chunk.js.map": "/static/js/2.94e988b8.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.907a0915.chunk.css.map": "/static/css/2.907a0915.chunk.css.map",
     "static/css/main.1c984f30.chunk.css.map": "/static/css/main.1c984f30.chunk.css.map",
-    "static/js/2.1d605664.chunk.js.LICENSE.txt": "/static/js/2.1d605664.chunk.js.LICENSE.txt",
-    "static/media/Brain.e5ef8283.png": "/static/media/Brain.e5ef8283.png",
+    "static/js/2.94e988b8.chunk.js.LICENSE.txt": "/static/js/2.94e988b8.chunk.js.LICENSE.txt",
     "static/media/CrewasisLogo.579557ee.png": "/static/media/CrewasisLogo.579557ee.png",
     "static/media/disabilities.b6196fb8.pdf": "/static/media/disabilities.b6196fb8.pdf",
     "static/media/home.23698eb6.svg": "/static/media/home.23698eb6.svg",
@@ -24,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.b018ad78.js",
     "static/css/2.907a0915.chunk.css",
-    "static/js/2.1d605664.chunk.js",
+    "static/js/2.94e988b8.chunk.js",
     "static/css/main.1c984f30.chunk.css",
-    "static/js/main.c58f2231.chunk.js"
+    "static/js/main.e0604916.chunk.js"
   ]
 }
