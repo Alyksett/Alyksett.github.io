@@ -1,0 +1,31 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.back {
+    background-color: rgb(197, 247, 253)
+}
+
+header {
+    text-align: center;
+}
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */
