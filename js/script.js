@@ -63,10 +63,19 @@ loadData().then(() => {
         categoryElement.style.display = 'none';
 
         // Loop through recipes in the category and create HTML elements
-        category.recipes.forEach(recipe => {
+        category.recipes.forEach((recipe, index) => {
             const recipeElement = document.createElement('div');
             recipeElement.className = 'recipe';
-            recipeElement.innerHTML = `<p class = "test" >${recipe.name}</p>`;
+            recipeElement.innerHTML = `<p>${recipe.name}</p>`;
+
+            // Create ingredients list with bullet points
+            const ingredientsList = document.createElement('ul');
+            ingredientsList.className = 'ingredients-list';
+            recipe.ingredients.forEach(ingredient => {
+                const listItem = document.createElement('li');
+                listItem.textContent = ingredient;
+                ingredientsList.appendChild(listItem);
+            });
 
             // Attach event listener to each recipe for folding/unfolding
             recipeElement.addEventListener('click', (event) => {
@@ -82,10 +91,10 @@ loadData().then(() => {
             detailsContainer.style.display = 'none';
 
             // Populate details container with recipe fields
-            detailsContainer.innerHTML = `
-                <p>Ingredients: ${recipe.ingredients.join(', ')}</p>
-                <p>Instructions: ${recipe.instructions}</p>
-                <p>Notes: ${recipe.notes}</p>
+            detailsContainer.appendChild(ingredientsList); // Append ingredients list
+            detailsContainer.innerHTML += `
+                <p style="margin-top: 10px;">Instructions: ${recipe.instructions}</p>
+                <p style="margin-top: 10px;">Notes: ${recipe.notes}</p>
             `;
 
             // Append details container to recipe element

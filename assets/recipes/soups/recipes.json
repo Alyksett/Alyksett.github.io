@@ -20,6 +20,42 @@
                     ],
                     "instructions": "Chop potato, add milk",
                     "notes": "Made by Austin"
+                },
+                {
+                    "name": "Lentil Soup",
+                    "ingredients": [
+                        "1 potato",
+                        "1 cup milk"
+                    ],
+                    "instructions": "Chop potato, add milk",
+                    "notes": "Made by Austin"
+                },
+                {
+                    "name": "Tomato Soup",
+                    "ingredients": [
+                        "1 Tomato",
+                        "1 cup Tomato"
+                    ],
+                    "instructions": "Chop Tomato, add milk",
+                    "notes": "Made by Tomato"
+                },
+                {
+                    "name": "Potato Soup",
+                    "ingredients": [
+                        "1 potato",
+                        "1 cup milk"
+                    ],
+                    "instructions": "Chop potato, add milk",
+                    "notes": "Made by Austin"
+                },
+                {
+                    "name": "Lentil Soup",
+                    "ingredients": [
+                        "1 potato",
+                        "1 cup milk"
+                    ],
+                    "instructions": "Chop potato, add milk",
+                    "notes": "Made by Austin"
                 }
             ]
         },
