@@ -1,0 +1,14 @@
+Categories
+
+    - Notes
+    - Casseroles
+    - Salads
+    - Rice, pasta, Cereal
+    - Fish 
+    ...
+
+Recipe
+- Name/Title
+- Ingredients
+- Instructions
+- Notes

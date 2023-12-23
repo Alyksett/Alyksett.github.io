@@ -1,0 +1,13 @@
+{
+    "recipes":[
+        {
+            "name":"Potato Soup",
+            "ingredients":[
+                "1 potato",
+                "1 cup milk"
+            ],
+            "instructions":"Chop potato, add milk",
+            "notes":"Made by Austin"
+        }
+    ]
+}
