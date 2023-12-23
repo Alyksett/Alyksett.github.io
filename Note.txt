@@ -12,3 +12,27 @@ Recipe
 - Ingredients
 - Instructions
 - Notes
+
+
+Categories
+- Household hints
+- Freezing and preserving
+- reorder information
+- pie
+- Beverages
+- Candies
+- Deserts
+- Fruits
+- Eggs and cheese
+- Breads
+- Soups
+- Sauces
+- Sandwiches
+- Misc main dishes
+- Meats
+- Fish
+- Poultry
+- Rice, pasta, Cereal
+- Salads
+- Casseroles
+

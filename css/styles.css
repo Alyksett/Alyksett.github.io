@@ -1,5 +1,7 @@
 /* Reset some default styles */
-body, h1, p {
+body,
+h1,
+p {
     margin: 0;
     padding: 0;
 }
@@ -21,9 +23,55 @@ p {
 }
 
 .back {
-    background-color: rgb(197, 247, 253)
+    background-color: rgb(16, 39, 52)
 }
 
 header {
     text-align: center;
+}
+
+.category-container {
+    /* margin-left: 20px; */
+    /* margin-bottom: 10px; */
+    /* padding: 5px; */
+    cursor: pointer;
+    user-select: none;
+    /* outline: 2px solid red; */
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.category {
+    /* margin-left: 20px; */
+    /* margin-bottom: 10px; */
+    /* padding: 50px; */
+    cursor: pointer;
+    user-select: none;
+    display: none;
+    font-size: larger;
+    /* outline: 2px solid blue; */
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+    /* max-width: 20%; */
+    margin: 0 auto;
+}
+
+.recipe {
+
+    margin-bottom: 10px;
+    /* padding: 5px; */
+    cursor: pointer;
+    user-select: none;
+    background-color: #e1e1e1;
+    /* outline: 2px solid black; */
+    text-align: left;
+    margin: 0 auto;
+}
+
+.test {
+    margin: 0 auto;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
 }

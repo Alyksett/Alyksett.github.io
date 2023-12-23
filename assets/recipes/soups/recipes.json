@@ -1,13 +1,50 @@
 {
-    "recipes":[
+    "categories": [
         {
-            "name":"Potato Soup",
-            "ingredients":[
-                "1 potato",
-                "1 cup milk"
-            ],
-            "instructions":"Chop potato, add milk",
-            "notes":"Made by Austin"
+            "name": "soup",
+            "recipes": [
+                {
+                    "name": "Tomato Soup",
+                    "ingredients": [
+                        "1 Tomato",
+                        "1 cup Tomato"
+                    ],
+                    "instructions": "Chop Tomato, add milk",
+                    "notes": "Made by Tomato"
+                },
+                {
+                    "name": "Potato Soup",
+                    "ingredients": [
+                        "1 potato",
+                        "1 cup milk"
+                    ],
+                    "instructions": "Chop potato, add milk",
+                    "notes": "Made by Austin"
+                }
+            ]
+        },
+        {
+            "name": "salad",
+            "recipes": [
+                {
+                    "name": "Potato Salad",
+                    "ingredients": [
+                        "1 dressing",
+                        "1 salad"
+                    ],
+                    "instructions": "Chop salad, add salad",
+                    "notes": "Made by mom"
+                },
+                {
+                    "name": "Potato Salad 2",
+                    "ingredients": [
+                        "1 dressing2",
+                        "1 salad2"
+                    ],
+                    "instructions": "Chop salad, add salad2",
+                    "notes": "Made by mom2"
+                }
+            ]
         }
     ]
 }
