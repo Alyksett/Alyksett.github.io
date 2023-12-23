@@ -1,4 +1,5 @@
 async function loadJSON() {
+    console.log("Starting...");
     const response = await fetch("assets/recipes/soups/recipes.json");
     const json = await response.json();
     return json;
@@ -50,6 +51,7 @@ async function loadData() {
     console.log(catalog);
 }
 loadData().then(() => {
+
     const catalogContainer = document.getElementById('catalogContainer');
 
     // Function to create collapsible category
